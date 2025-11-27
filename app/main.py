@@ -6,7 +6,7 @@ from rag_utils import rag, build_vector_db
 # ------------------------------
 # Load PDF + Build Vector DB
 # ------------------------------
-PDF_PATH = "app/pdfContent/document.pdf"
+PDF_PATH = "pdfContent/document.pdf"
 build_vector_db(PDF_PATH)
 
 # ------------------------------
