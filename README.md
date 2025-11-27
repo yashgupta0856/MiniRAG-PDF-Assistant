@@ -7,6 +7,7 @@ A lightweight Retrieval-Augmented Generation (RAG) pipeline implemented entirely
 * **SentenceTransformers (MiniLM-L6-v2)** for semantic embeddings
 * **ChromaDB** for vector storage and similarity search
 * **Ollama (TinyLlama)** as the local LLM for answer generation
+* **Ollama (Mistral)** as the local LLM for answer generation
 
 This notebook-based workflow provides a clear, linear learning experience with well-structured sections, comments, and outputs.
 
@@ -77,8 +78,11 @@ Download: [https://ollama.com/download](https://ollama.com/download)
 
 Pull the TinyLlama model:
 
+Pull the Mistral Model:
+
 ```bash
 ollama pull tinyllama
+ollama pull mistral
 ```
 
 ---
